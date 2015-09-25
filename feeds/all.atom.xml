@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>The Den of Nerd</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2014-11-12T12:42:00-05:00</updated><entry><title>"有一种爱情"</title><link href="/you-yi-chong-ai-qing.html" rel="alternate"></link><updated>2014-11-12T12:42:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2014-11-12:you-yi-chong-ai-qing.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;昨天晚上商量做博后的事儿。她说，要是两边都不要我，我就跟你随便去哪生孩子。&lt;/p&gt;</summary></entry><entry><title>"MathJax测试"</title><link href="/mathjaxce-shi.html" rel="alternate"></link><updated>2014-06-17T17:13:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2014-06-17:mathjaxce-shi.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;inline公式：&lt;code&gt;$\int_a^b$&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;inline公式：&lt;span class="math"&gt;\(\int_a^b\)&lt;/span&gt;&lt;/p&gt;
+&lt;p _="%" codeblock="codeblock"&gt;独立插入的公式：&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\alpha+\beta=\xi
+$$&lt;/div&gt;
+&lt;p&gt;{% endcodeblock %}
+独立插入的公式：
+&lt;/p&gt;
+&lt;div class="math"&gt;$$
+\alpha+\beta=\xi
+$$&lt;/div&gt;
+&lt;p&gt;嗯，这真是个好东西的说。看来之前写的公式测试的东西，完全就不上档次嘛。真厉害。&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary></entry><entry><title>"黄金一代"</title><link href="/my-super-post.html" rel="alternate"></link><updated>2014-06-17T10:42:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2014-06-17:my-super-post.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;昨晚（今天凌晨）葡萄牙输球了。&lt;/p&gt;
+&lt;p&gt;但其实也没有很感慨。&lt;/p&gt;
+&lt;p&gt;我是从初中的时候开始喜欢葡萄牙队的。那个时候的年纪，似乎一定要找到某个偶像，似乎这也会成为在人前炫耀的资本，成为一个必不可少的标签。而一个别人都不太熟识的偶像，更能为自己增添几分神秘色彩和个性的光辉，至少在那时不太成熟的心智里，确实有这样的感觉。所以在大部分踢球的孩子们都无比崇拜罗纳尔多的年代，我毅然决然地把自己的偶像选为路易斯·菲戈，一个葡萄牙右边卫，曾经的7号，也连带着，我选择了葡萄牙作为自己支持的球队，这一选，竟已经过了十多年。&lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;要说菲戈不是所有人都知道，那是实话，他不属于那种顶级到妇孺皆知的球员。但要说他不著名，却也不尽然。世界足球先生和欧洲足球先生得主，这样的荣耀，在足球圈里并不常见。他率领的葡萄牙队，被称为黄金一代，队内有多名有天赋的球员。然而黄金一代却始终没能在洲际大赛上夺冠。亚军，四强，似乎巅峰永远不会是他们的宿命。04年的欧锦赛和06年的世界杯，是黄金一代最后的谢幕。浓郁压迫的悲情色彩，是黄金一代不曾改变的烙印，让我现在回首起来，也始终觉得那一代的葡萄牙人，还都被笼罩在灰蒙蒙的迷雾之中。&lt;/p&gt;
+&lt;p&gt;有时候悲情的英雄，更让人铭记。&lt;/p&gt;
+&lt;p&gt;实际上我并没有因为葡萄牙队而感受过太多的悲伤——04年决赛输了的时候，我可能是有要流泪的冲动吧，不过记得不真切了——反而这种淡淡忧郁的心情，很符合初中时候我整个人的状态。那是一个为赋新词强说愁的时候，葡萄牙和中国队一起，给我的忧愁凑满了素材。我不止一次在班会的发言上提到足球，说到大家都厌烦了。我不知道为什么会如此，大概只能归结为太年轻吧。&lt;/p&gt;
+&lt;p&gt;实际上，黄金一代并没有真的结束。菲戈的7号球衣，被一个不得不说是更有天赋的球员，C罗继承。不过同样被继承的，除了队长袖标，还有那不变的悲剧命运。人们常说，葡萄牙输球时候，C罗眼中满是无奈。确实，葡萄牙给了C罗一个太小的舞台。就像曾经的科斯塔和菲戈。我不知道在C罗内心深处，是不是真的相信葡萄牙有一天会夺冠。实际上我是并不期望的，至少在我正常的思维里，我并不期望。只是偶尔划过脑海的一个闪念，给我了一点光辉的恍惚。这样挺好的，我常常觉得，不如意事十八九，有过程就够了。&lt;/p&gt;
+&lt;p&gt;继续支持葡萄牙是一种惯性。实际上我并不那么喜欢C罗，他看起来太年轻。而且他就是那种最顶级的球员，顶级到不喜欢足球的人们也都知道。以至于我每次跟别人说起我支持葡萄牙队的时候，我都想补充一句说，这不是因为C罗。我不喜欢那种被一般化的感觉。我渴望不同。也许这对C罗来说，不太公平。&lt;/p&gt;
+&lt;p&gt;小时候经常写的一句话是“曾经的黄金一代，永远的黄金一代”，感觉这句子浸透着遗憾。现在再写出来，想到的却都是怀念。一个人，一只队，伴我走过一段青涩的日子。可能这也是年少时候不能缺失的一部分。&lt;/p&gt;
+&lt;p&gt;希望这届世界杯，葡萄牙能够走得更远。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image" src="http://sports.cctv.com/20080608/images/1212885642402_200806080803131ee05.jpg" /&gt;&lt;/p&gt;</summary></entry><entry><title>"想不起来了"</title><link href="/xiang-bu-qi-lai-liao.html" rel="alternate"></link><updated>2014-06-16T15:39:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2014-06-16:xiang-bu-qi-lai-liao.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;嗯，真的想不起来了。想把这个博客重新拾起来，竟然有点完全想不起来了。看来人们（尤其是我这样比较不jimi的）还是非常习惯忘记的。&lt;/p&gt;</summary></entry><entry><title>"公式测试"</title><link href="/gong-shi-ce-shi.html" rel="alternate"></link><updated>2013-07-24T01:07:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2013-07-24:gong-shi-ce-shi.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;之前用一些网站生成的latex公式图片嵌入，现在来看，那些网站都已经打不开了，不禁感慨一下，时过境迁，沧海桑田，在互联网时代也是同样。有什么办法能够一直保存数据呢。我还记得在三体里面，人类面临灭亡的时候，找到的最好的保存文字的手段竟然是刻在石头上。不过在之后二维化的过程中，我不知道这些刻痕是不是还以另外一种方式保存下来。&lt;/p&gt;
+&lt;p&gt;呃，如果以后需要公式的话，百度一下“在线latex公式即可”。不过能不能维持长久，就又是另外一回事了。&lt;/p&gt;</summary></entry><entry><title>"继续测试"</title><link href="/ji-xu-ce-shi.html" rel="alternate"></link><updated>2013-07-22T22:26:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2013-07-22:ji-xu-ce-shi.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;那啥 测试版面&lt;/p&gt;
+&lt;h1&gt;谁言别后终无悔，&lt;/h1&gt;
+&lt;h2&gt;寒月清宵绮梦回。&lt;/h2&gt;
+&lt;h3&gt;深知身在情长在，&lt;/h3&gt;
+&lt;h4&gt;前尘不共彩云飞！&lt;/h4&gt;</summary></entry><entry><title>"测试"</title><link href="/ce-shi.html" rel="alternate"></link><updated>2013-07-22T21:41:00-05:00</updated><author><name>Jian Liang</name></author><id>tag:,2013-07-22:ce-shi.html</id><summary type="html">&lt;hr /&gt;
+&lt;p&gt;hello world!&lt;/p&gt;
+&lt;p&gt;顺便测试一下这个编辑器：&lt;/p&gt;
+&lt;p&gt;重点（斜体）：&lt;em&gt;啦啦啦&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;代码：&lt;code&gt;git push origin source&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;代码区块：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;ssh&lt;/span&gt; &lt;span class="n"&gt;cheny&lt;/span&gt;&lt;span class="mf"&gt;@60.29.219.3&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;分割线：&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;删除线：~~哈哈哈~~&lt;/p&gt;
+&lt;p&gt;链接：&lt;a href="http://liangjian.github.io"&gt;我的博客&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;加粗：&lt;strong&gt;呵呵&lt;/strong&gt; &lt;/p&gt;
+&lt;!-- more --&gt;
+
+&lt;p&gt;图片：&lt;img alt="再见,cortana!" src="http://pre01.deviantart.net/6d14/th/pre/f/2012/333/1/f/goodbye_cortana___halo_4_by_sonicthehedgesantos-d5minw7.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;引用：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从前有座山 山上有个庙
+庙里有个老和尚
+老和尚给小和尚讲故事&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;列表：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;今天&lt;/li&gt;
+&lt;li&gt;明天&lt;/li&gt;
+&lt;li&gt;后天&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://wowubuntu.com/markdown/"&gt;markdown语法参考&lt;/a&gt;&lt;/p&gt;</summary><category term="test"></category></entry></feed>
