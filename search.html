@@ -7,19 +7,19 @@
         <meta name="author" content="Jian Liang" />
         <meta name="copyright" content="Jian Liang" />
 
-        <meta name="description" content="Full archives of The Den of A Nerd blog.
+        <meta name="description" content="Search results for The Den of A Nerd blog.
 " />
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta property="og:title" content="All Posts · The Den of A Nerd"/>
-<meta name="twitter:title" content="All Posts · The Den of A Nerd">
-<meta property="og:url" content="http://liangjian.github.io/archives.html" />
-<meta property="og:description" content="Full archives of The Den of A Nerd blog" />
-<meta name="twitter:description" content="Full archives of The Den of A Nerd blog">
+<meta property="og:title" content="Search · The Den of A Nerd"/>
+<meta name="twitter:title" content="Search · The Den of A Nerd">
+<meta property="og:url" content="http://liangjian.github.io/search.html" />
+<meta property="og:description" content="Search results for The Den of A Nerd blog" />
+<meta name="twitter:description" content="Search results for The Den of A Nerd blog">
 <meta property="og:site_name" content="The Den of A Nerd" />
 <meta property="og:article:author" content="Jian Liang" />
-        <title>All Posts · The Den of A Nerd
+        <title>Search · The Den of A Nerd
 </title>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
@@ -44,7 +44,7 @@
                             <li ><a href="http://liangjian.github.io">Home</a></li>
                             <li ><a href="http://liangjian.github.io/categories.html">Categories</a></li>
                             <li ><a href="http://liangjian.github.io/tags.html">Tags</a></li>
-                            <li  class="active"><a href="http://liangjian.github.io/archives.html">Archives</a></li>
+                            <li ><a href="http://liangjian.github.io/archives.html">Archives</a></li>
                             <li><form class="navbar-search" action="http://liangjian.github.io/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                         </ul>
                     </div>
@@ -55,19 +55,11 @@
             <div class="row-fluid">
                 <div class="span1"></div>
                 <div class="span10">
-
-<div class="row-fluid">
-    <header class="page-header span10 offset2">
-    <h1><a href="http://liangjian.github.io/archives.html">All Posts</a></h1>
-    </header>
-</div>
-<div class="row-fluid">
-    <div class="span10 offset2">
-        <div class="blog-archives">
-        </div>
+<article>
+    <div class="span8 offset2">
+        <div id="tipue_search_content"><div id="tipue_search_loading"></div></div>
     </div>
-</div>
-
+</article>
                 </div>
                 <div class="span1"></div>
             </div>
@@ -81,14 +73,19 @@
         <li class="elegant-power">Powered by <a href="http://getpelican.com/" title="Pelican Home Page">Pelican</a>. Theme: <a href="http://oncrashreboot.com/pelican-elegant" title="Theme Elegant Home Page">Elegant</a> by <a href="http://oncrashreboot.com" title="Talha Mansoor Home Page">Talha Mansoor</a></li>
     </ul>
 </div>
-</footer>        <script src="http://code.jquery.com/jquery.min.js"></script>
-        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-        <script>
-            function validateForm(query)
-            {
-                return (query.length > 0);
-            }
-        </script>
+</footer><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://liangjian.github.io/theme/tipuesearch/tipuesearch_set.js"></script>
+<script type="text/javascript" src="http://liangjian.github.io/theme/tipuesearch/tipuesearch.min.js"></script>
+<script>
+$(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+             'mode' : 'json',
+         'show': 10,
+         'newWindow': false,
+             'contentLocation': 'tipuesearch_content.json'
+     });
+});
+</script>
     </body>
     <!-- Theme: Elegant built for Pelican
     License : http://oncrashreboot.com/pelican-elegant -->
