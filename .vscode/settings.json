@@ -1,0 +1,14 @@
+{
+    "cSpell.words": [
+        "Matplotlib",
+        "dask",
+        "gvar",
+        "lsqfit",
+        "mpmath",
+        "numba",
+        "numdifftools",
+        "pybind",
+        "pystan",
+        "xarray"
+    ]
+}
